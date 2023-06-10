@@ -1,0 +1,100 @@
+#nav, nav{
+    background-color: #63B1BB;
+}
+#home{
+    background-image: url(img/bgHomePage.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+     background: #63B1BB;
+     /* border-bottom: black 1px !important; */
+   
+}
+.btncolor{
+    background-color: #FED700 !important;
+    border-radius: 0;
+}
+.bgcolor{
+    background-color: #046180;
+}
+.textcolor{
+    color: #FED700;
+}
+.websitedesignDiv{
+width: 21%;
+background: #FFE66B;
+box-shadow: 0px 1.94475px 9.72376px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+text-align: center;
+translate : (31%,-39%)!important;
+
+}
+.HomePageDivsmall{
+    background: #FFFAE4;
+    width:19%;
+    box-shadow: 0px 1.94475px 9.72376px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 11.6657px;
+line-height: 20px;
+text-align: center;
+}
+.border-primary{
+ border-color: #04618078 !important;
+ border-left-color: #046180 !important;
+ border-left-width: 0.5rem !important;
+}
+.border-primary:hover{
+    background-color: #FFE66B;
+}
+
+.carousel-control-next{
+      bottom: 75%;
+}
+.carousel-control-prev{
+    bottom: 40%;
+}
+i{
+    width: 50px;
+}
+u{
+    text-decoration-color: #FED700 !important;
+    text-decoration-thickness:7px !important;
+    text-underline-offset:16px;
+    
+
+
+}
+.bgDubai{
+    background-image: url("img/Dubai.png");
+    background-size:cover ;
+}
+.bgformSection{
+    
+    background-color: #001D55;
+    background-image: url("img/bgformsection.png");
+    background-size:cover ;
+}
+input ,textarea {
+     width:100%;
+     background-color:#02020212;
+     
+   }
+label{
+    background-color:#021539d4;
+}
+input:focus, textarea:focus, select:focus{
+           outline: none;
+       }
+form
+{
+    background-color: #02020270;
+}
+

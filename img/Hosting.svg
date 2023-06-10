@@ -1,0 +1,24 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_701_1220" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="65" height="65">
+<rect x="0.613208" y="0.613208" width="63.7736" height="63.7736" fill="#D9D9D9" stroke="black" stroke-width="1.22642"/>
+</mask>
+<g mask="url(#mask0_701_1220)">
+<rect x="4.2915" y="13.4905" width="50.283" height="8.24312" fill="#FED700"/>
+<rect x="4.2915" y="23.3821" width="50.283" height="8.24312" fill="#046180"/>
+<circle cx="10.8854" cy="27.5038" r="1.23647" stroke="#FED700" stroke-width="0.824312"/>
+<circle cx="15.8317" cy="27.5038" r="1.23647" stroke="#FED700" stroke-width="0.824312"/>
+<circle cx="20.778" cy="27.5038" r="1.23647" stroke="#FED700" stroke-width="0.824312"/>
+<rect x="4.2915" y="33.2739" width="50.283" height="8.24312" fill="#FED700"/>
+<rect x="4.2915" y="43.1655" width="50.283" height="8.24312" fill="#046180"/>
+<circle cx="10.8854" cy="17.612" r="1.23647" stroke="#046180" stroke-width="0.824312"/>
+<circle cx="15.8317" cy="17.612" r="1.23647" stroke="#046180" stroke-width="0.824312"/>
+<circle cx="20.778" cy="17.612" r="1.23647" stroke="#046180" stroke-width="0.824312"/>
+<circle cx="10.8854" cy="47.2873" r="1.23647" stroke="#FED700" stroke-width="0.824312"/>
+<circle cx="15.8317" cy="47.2873" r="1.23647" stroke="#FED700" stroke-width="0.824312"/>
+<circle cx="20.778" cy="47.2873" r="1.23647" stroke="#FED700" stroke-width="0.824312"/>
+<circle cx="10.8854" cy="37.3955" r="1.23647" stroke="#046180" stroke-width="0.824312"/>
+<circle cx="15.8317" cy="37.3955" r="1.23647" stroke="#046180" stroke-width="0.824312"/>
+<circle cx="20.778" cy="37.3955" r="1.23647" stroke="#046180" stroke-width="0.824312"/>
+<path d="M63.1601 10.4246V17.7232M63.1601 17.7232H54.5752M63.1601 17.7232V27.7589M63.1601 27.7589H54.5752M63.1601 27.7589V37.4904M63.1601 37.4904H54.5752M63.1601 37.4904V47.8302H54.5752" stroke="#003D4C" stroke-width="1.22642" stroke-linecap="round" stroke-dasharray="3.07 3.07"/>
+</g>
+</svg>
