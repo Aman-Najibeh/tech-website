@@ -64,13 +64,16 @@ text-align: center;
 i{
     width: 50px;
 }
+.beforcircle::before{
+    content: "-------------------";
+    width: 100%;
+    color: red;
+ border:black dashed 1px;
+}
 u{
     text-decoration-color: #FED700 !important;
     text-decoration-thickness:7px !important;
     text-underline-offset:16px;
-    
-
-
 }
 .bgDubai{
     background-image: url("img/Dubai.png");
