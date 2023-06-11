@@ -55,20 +55,14 @@ text-align: center;
     background-color: #FFE66B;
 }
 
-.carousel-control-next{
+/* .carousel-control-next{ 
       bottom: 75%;
 }
 .carousel-control-prev{
     bottom: 40%;
-}
+} */
 i{
     width: 50px;
-}
-.beforcircle::before{
-    content: "-------------------";
-    width: 100%;
-    color: red;
- border:black dashed 1px;
 }
 u{
     text-decoration-color: #FED700 !important;

@@ -5,8 +5,6 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Tech Website</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- <script src='main.js'></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -18,7 +16,7 @@
     <!-- start section navbar -->
     <section id="nav">
     <div class="container-xl">
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md ">
             <div class="container-fluid ">
               <a class="navbar-brand " href="#"><img src="img/logo.svg"> </span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +24,7 @@
               </button>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto ml-5 mb-2 mb-lg-0  ">
-                  <li class="nav-item ms-5">
+                  <li class="nav-item ms-lg-5">
                     <a class="nav-link active text-white fw-bold" aria-current="page" href="home">Home</a>
                   </li>
                   <li class="nav-item ">
@@ -39,7 +37,7 @@
                     <a class="nav-link text-white" href="#">Our Work</a>
                   </li>
                 </ul>
-                <form class="d-flex" >
+                <form  style="background-color: #02020200;">
                   <button class="btn btncolor" type="submit">Get in touch</button>
                 </form>
               </div>
@@ -51,7 +49,7 @@
     <!-- End section navbar -->
 
     <!-- start section Home page -->
-    <section id="home" class="pt-5 px-3">
+    <section id="home" class="pt-lg-5 px-3">
         <div class="container-xl pt-5 " >
          
             <div class="row my-5 py-5">
@@ -92,9 +90,9 @@
                         </div> 
                     </div>
             </div>
-            <div class="contanier mt-5 pt-5">
+            <div class="contanier mt-lg-5 pt-lg-5">
                 <div class="row mt-5 pt-5 ">
-                    <div class="col-sm-8 m-auto col-lg-6 ml-5">
+                    <div class="col-sm-8  m-auto col-lg-6 ml-5">
                         <img src="img/what do you do.svg" alt="" style="width: 80%;">
                     </div>
                     <div class="col-sm-10 mx-auto col-lg-6 align-self-center">
@@ -145,7 +143,7 @@
     <!--  -->
      
    <!-- start Flick Tech section -->
-    <section class="section">
+    <section class="section mb-4">
       <div class="container-fluid ">
         <div class="row text-center my-5">
           <div class="col-lg-5 col-sm-10 m-auto ">
@@ -160,7 +158,7 @@
               <div class="row bgcolor">
                 <div class="col-lg-6 col-sm-12 p-5 m-0  align-self-center">
                         <div>
-                          <h1 class="textcolor"><u>1 </u></h1>
+                          <h1 class="textcolor pb-3"><u>1 </u></h1>
                           <h1 class="textcolor">Reliability & Expertise</h1>
                           <p class="text-white"><strong>Flick Web Designers & Developers</strong>  are experts in their field with years of experience under their belts. From static websites to more complex ecommerce websites, the Flick Tech team develops modern, innovative & interactive websites that stands out. </p>
                         </div>
@@ -175,7 +173,7 @@
               <div class="row bgcolor">
                 <div class="col-lg-6 col-sm-12 p-5 m-0  align-self-center">
                         <div>
-                          <h1 class="textcolor"><u>2 </u></h1>
+                          <h1 class="textcolor pb-3"><u>2 </u></h1>
                           <h1 class="textcolor">Collaborative Team</h1>
                           <p class="text-white">It is always a team effort with every project that we handle. Flick Tech's diverse team collaborates with your brand to ensure each website reflects your brand message and identity.  </p>
                         </div>
@@ -190,7 +188,7 @@
               <div class="row bgcolor">
                 <div class="col-lg-6 col-sm-12 p-5 m-0  align-self-center">
                         <div>
-                          <h1 class="textcolor"><u>3 </u></h1>
+                          <h1 class="textcolor pb-3"><u>3 </u></h1>
                           <h1 class="textcolor">Client-First Ethos <br> (or Client-First Philosophy)</h1>
                           <p class="text-white">It is always a team effort with every project that we handle. Flick Tech's diverse team collaborates with your brand to ensure each website reflects your brand message and identity.   </p>
                         </div>
@@ -205,7 +203,7 @@
               <div class="row bgcolor">
                 <div class="col-lg-6 col-sm-12 p-5 m-0  align-self-center">
                         <div>
-                          <h1 class="textcolor"><u>4 </u></h1>
+                          <h1 class="textcolor pb-3"><u>4 </u></h1>
                           <h1 class="textcolor">
                             Fast Delivery</h1>
                           <p class="text-white">Our team of experienced web developers is dedicated to providing our clients with quality products in a timely manner. We understand that businesses need websites that are easy to use, as well as attractive and modern.   </p>
@@ -218,24 +216,39 @@
             </div>
           </div>
         
-          <button class="carousel-control-prev" style="width: 100%;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <div class="border border-black bg-white " style="width:60px;">
-              <img src="img/arrow-left.svg" style="width: 70%;">
+          
+            <button class="carousel-control-prev w-50  d-flex flex-column justify-content-start align-items-lg-end mt-lg-5  ms-lg-4" type="button" style="height: 2rem;"  data-bs-target="#carouselExample" data-bs-slide="prev">
+              <div class="border border-black bg-white mt-lg-5 " style="width:60px;">
+                <img src="img/arrow-left.svg" style="width: 70%;">
+              </div>
+            </button>
+            <button class="carousel-control-next d-flex flex-column justify-content-start  w-50  align-items-lg-start  mt-lg-4 me-lg-4 " type="button" style="height: 2rem;" data-bs-target="#carouselExample" data-bs-slide="next">
+              <div class="border border-black bg-white " style="width:60px;">
+                <img src="img/arrow-right.svg" style="width: 70%;">
+              </div>
+            </button>
+         
+
+          <!-- <div class="d-flex ">
+            <div>
+            <button class="carousel-control-prev " style="width: 100%;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <div class="border border-black bg-white " style="width:60px;">
+                <img src="img/arrow-left.svg" style="width: 70%;">
+              </div>
+            </button>
             </div>
-          </button>
-          <button class="carousel-control-next" style="width: 100%;" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <div class="border border-black bg-white " style="width:60px;">
-              <img src="img/arrow-right.svg" style="width: 70%;">
-            </div>
-          </button>
+          
+          </div> -->
+        
+          
         </div>
     </section>
     <!-- End Flick Tech section -->
 
 
     <!-- start The Flick Tech Process section -->
-     <section >
-      <div class="container-fluid ">
+     <section class="my-5">
+      <div class="container-fluid">
         <div class="row text-center my-5">
           <div class="col-lg-7 col-sm-10 m-auto ">
             <h1>Tech Process <span class="textcolor">Flick</span> <u>Tech Process </u></h1>
@@ -408,7 +421,7 @@
                  <!-- card 3 -->
                  <div class="col-xl-4 col-lg-7 mx-lg-auto my-3">
                   <div class="card rounded-0 border-0" style="width:100%; background-color: #C9DBFF;">
-                    <img src="img/KISWA.svg" class="card-img-top"  style="height:15rem;" >
+                    <img src="img/Jetex.svg" class="card-img-top"  style="height:15rem;" >
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Jetex</h5>
                       <p class="card-text my-4" style="size: 1.125rem;">We deliver our promise of excellence through our strong values and belief in providing a quality service. We achieve this by ensuring that everyone within the company lives and breathes our core values:</p>
