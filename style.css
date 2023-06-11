@@ -82,7 +82,7 @@ u{
 input ,textarea {
      width:100%;
      background-color:#02020212;
-     
+     color: white;
    }
 label{
     background-color:#021539d4;
